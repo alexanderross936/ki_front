@@ -13,14 +13,12 @@ const Navigation = ({ auth: { isAuthenticated, loading }, logout }) => {
         
     const authLinks = 
         <Fragment>
-            <ButtonGroup>
                 <MenuItem>
             <Link to="/sum" style= {{ textDecoration: 'none' }}><Button color="white">Ingredients List</Button></Link>
                 </MenuItem>
                 <MenuItem>
             <Link to="/recipes_list" style= {{ textDecoration: 'none' }}><Button color="white">Recipes List</Button></Link>
                 </MenuItem>
-                </ButtonGroup>
                 <MenuItem>
             <Link to="/add_recipe" style= {{ textDecoration: 'none' }}><Button color="white">Add Recipe</Button></Link>
                 </MenuItem>

@@ -7,17 +7,6 @@ class Home extends React.Component {
     state = {
         data: []
     }
-
-    // componentDidMount(){
-    //     axios.get('http://localhost:4000/')
-    //     .then(res => {
-    //   this.setState({
-    //     data: res.data
-    //   } )
-    //   console.log(this.state);
-    //       })
-      
-    //     }
         
     render() {
         return (
